@@ -1,0 +1,217 @@
+/* ------------------------------------------
+	Page Style 
+------------------------------------------ */
+
+
+/*** Google Fonts ***/
+@import url('https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800&subset=devanagari,latin-ext');
+
+/*** General Style ***/
+
+body {
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #777;
+    font-family: 'Mukta', sans-serif;
+    background: #fff url('../images/bg.jpg') center top no-repeat;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.8em;
+    font-weight: 400;
+    color: #777;
+    font-family: 'Mukta', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+p i {
+    color: #fff;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+a {
+    color: #f68338;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #191919;
+    text-decoration: underline;
+}
+
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding-left: 1.5em;
+    font-family: 'Mukta', sans-serif;
+}
+
+li:before {
+    content: "\e64c";
+    font-family: "themify";
+    display: inline-block;
+    margin-left: -1.5em;
+    width: 1.5em;
+    color: #f68338;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid transparent;
+}
+
+
+/*** Header ***/
+
+.header {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 3px;
+    font-size: 50px;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.header h3 {
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 3px;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #ccc;
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+}
+
+.header h1 span {
+    color: #fff;
+}
+
+.header h2 {
+    font-size: 15px;
+    line-height: 1.5em;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+
+/*** Title ***/
+
+.title {
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #191919;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
+}
+
+.title span {
+    color: #191919;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.title b {
+    font-family: 'Mukta', sans-serif color: #e183a8;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+
+/*** Content ***/
+
+.content {
+    margin-bottom: 0px;
+    padding: 40px 0;
+    background: #fff;
+    border-radius: 6px;
+}
+
+
+/*** Footer ***/
+
+.footer-section {
+    background: #191919;
+}
+
+
+/*** toTop ***/
+
+.toTop {
+    width: 40px;
+    right: 30px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    background-color: #000;
+    z-index: 999;
+    padding: 20px 0;
+    position: fixed;
+    display: none;
+    top: 90%;
+    color: #fff;
+}
+
+.toTop-vissible {
+    right: 10px;
+    opacity: 1;
+}
+
+.toTop:before {
+    position: absolute;
+    content: "\e627";
+    top: 13px;
+    left: 50%;
+    margin-left: -7px;
+    font-size: 15px;
+    display: inline-block;
+    font-family: "themify";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.toTop:hover {
+    color: #fff;
+}
+
+.toTop:focus {
+    color: #fff;
+}
