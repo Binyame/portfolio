@@ -22,6 +22,20 @@
 
 /* 01. Google Font */
 
+/*Title style
+=============================*/
+.title-style:after { content: ''; width: 60px; height: 2px; background: #febf34; display: block; margin-top: 12px; }
+.title-style-01:after { content: ''; width: 71px; height: 4px; background: url(../images/bg/wave-img.png) no-repeat; -ms-background-size: 71px 4px; background-size: 71px 4px; display: block; margin: 12px 0 0; }
+.title-style-02 { font-size: 13px; position: relative; }
+.title-style-02:before, .title-style-02:after { content: ''; height: 1px; width: 13px; position: absolute; left: 100%; margin-left: 7px; background: #febf34; top: 50%; }
+.title-style-02:after { left: auto; right: 100%; margin: 0 7px 0 0; }
+.title-style.title-style-gray:after { background: #ccc; }
+.top-line { position: relative; }
+.top-line:before { content: ''; position: absolute; top: 0; width: 50px; height: 7px; background: #fec952; }
+
+/*===========================
+
+
 @import url('https://fonts.googleapis.com/css?family=Mukta:200,300,400,500,600,700,800&subset=devanagari,latin-ext');
 
 /* 02. Typography */
@@ -2580,6 +2594,9 @@ input[type="submit"].button-white:focus {
 
 .mccan-social-menu a[href*="youtube.com"] .mccan-ti:before {
     content: "\e728";
+}
+.mccan-social-menu a[href*="github.com"] .mccan-ti:before {
+    content: "\2661";
 }
 
 
