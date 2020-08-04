@@ -2596,7 +2596,7 @@ input[type="submit"].button-white:focus {
     content: "\e728";
 }
 .mccan-social-menu a[href*="github.com"] .mccan-ti:before {
-    content: "\2661";
+    content: "\e73f";
 }
 
 
